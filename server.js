@@ -14,6 +14,7 @@ app.post('/login',(req,res)=>{
 
     const user = users.find((usr)=>usr.username === req.body.username);
 
+    console.log("welcome")
     console.log(user);
 
     if(user)
